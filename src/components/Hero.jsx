@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div>
+    <div className="grow border border-indigo-600">
       HERO
     </div>
   )

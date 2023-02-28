@@ -10,11 +10,11 @@ function App() {
 
       <main className="border border-indigo-600">
         <div className="flex min-h-[511px] justify-between mt-14 border border-indigo-600">
-          <Hero className="border border-indigo-600" />
-          <New className="border border-indigo-600" />
+          <Hero />
+          <New />
         </div>
         
-        <Featured className="mt-14 border border-indigo-600" />
+        <Featured />
       </main>
     </div>
   )
