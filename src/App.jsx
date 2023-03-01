@@ -5,7 +5,7 @@ import Featured from './components/Featured'
 
 function App() {
   return (
-    <div className="flex flex-col max-w-[1100px] mx-auto border border-indigo-600">
+    <div className="flex flex-col max-w-[1100px] mx-auto">
       <Header />
 
       <main>
