@@ -21,7 +21,7 @@ A news/blog UI built with Vite, React & Tailwind CSS.
 
 <br/>
 
-![Screenshot of the finished UI](./public/img/screenshot.png "Screen of the finished UI")
+![Screenshot of the finished UI](./public/screenshot.png "Screen of the finished UI")
 
 <br/>
 
