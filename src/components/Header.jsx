@@ -2,7 +2,7 @@ import Logo from './Logo'
 
 function Header() {
   return (
-    <div className="flex justify-between items-center mt-20">
+    <div className="flex justify-between items-center">
       <Logo />
 
       <nav>
