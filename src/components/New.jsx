@@ -1,6 +1,6 @@
 function New() {
   return (
-    <aside className="w-[30%] text-white bg-darkish px-6 py-8">
+    <aside className="w-[30%] min-w-[30%] ml-8 text-white bg-darkish px-6 py-8">
       <h2 className="text-yellow font-bold text-lg">New</h2>
 
       <ul>
