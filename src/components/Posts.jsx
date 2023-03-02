@@ -1,6 +1,6 @@
-import Hero from './components/Hero'
-import New from './components/New'
-import Featured from './components/Featured'
+import Hero from './Hero'
+import New from './New'
+import Featured from './Featured'
 
 function Home() {
   return (
