@@ -1,21 +1,22 @@
 import Header from './components/Header'
-import Hero from './components/Hero'
-import New from './components/New'
-import Featured from './components/Featured'
+import Home from './Home'
+import Error from './Error'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+    errorElement: <Error />
+  }
+])
 
 function App() {
   return (
     <div className="flex flex-col max-w-[1100px] mx-auto mt-14">
       <Header />
 
-      <main>
-        <div className="flex min-h-[511px] justify-between mt-14">
-          <Hero />
-          <New />
-        </div>
-        
-        <Featured />
-      </main>
+      <RouterProvider router={router} />
     </div>
   )
 }
