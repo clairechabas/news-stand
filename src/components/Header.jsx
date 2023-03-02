@@ -6,12 +6,13 @@ function Header() {
       <Logo />
 
       <nav>
-        <ul className='flex'>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="#">Home</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="#">New</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="#">Popular</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="#">Trending</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="#">Categories</a></li>
+        <ul className='flex items-center'>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/">Home</a></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/new">New</a></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/codinh">Coding</a></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/growing">Growing</a></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/thinking">Thinking</a></li>
+          <li className="ml-10 "><a href="/add-category" className='pb-.5 text-white bg-vermillion hover:bg-darkish w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm'>+</a></li>
         </ul>
       </nav>
     </div>
