@@ -1,13 +1,25 @@
 import Header from './components/Header'
-import Home from './Home'
+import Root from './Root'
 import Error from './Error'
+import Posts from './components/Posts'
+import Post from './components/Post'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
-    errorElement: <Error />
+    element: <Root />,
+    errorElement: <Error />,
+    children: [
+      {
+        path: ':category',
+        element: <Posts />
+      },
+      {
+        path: ':category/:postId',
+        element: <Post />
+      }
+    ]
   }
 ])
 
