@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Logo from './Logo'
 
 function Header() {
@@ -7,12 +8,12 @@ function Header() {
 
       <nav>
         <ul className='flex items-center'>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/">Home</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/new">New</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/codinh">Coding</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/growing">Growing</a></li>
-          <li className="ml-10 text-gunmetal hover:text-yellow"><a href="/thinking">Thinking</a></li>
-          <li className="ml-10 "><a href="/add-category" className='pb-.5 text-white bg-vermillion hover:bg-darkish w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm'>+</a></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><Link to={`/`}>Home</Link></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><Link to={`/new`}>New</Link></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><Link to={`/coding`}>Coding</Link></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><Link to={`/growing`}>Growing</Link></li>
+          <li className="ml-10 text-gunmetal hover:text-yellow"><Link to={`/thinking`}>Thinking</Link></li>
+          <li className="ml-10 "><Link to={`/create-category`} className='pb-.5 text-white bg-vermillion hover:bg-darkish w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm'>+</Link></li>
         </ul>
       </nav>
     </div>
